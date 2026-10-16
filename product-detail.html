@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/aset/logo.png" type="image/png">
+    <title>Detail Produk - Hinagiku</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo">
+                    <img src="/aset/Logo Hiragana warna 5.png" alt="">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">Tentang Kami</a></li>
+                <li class="nav-item"><a href="products.html" class="nav-link">Produk</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Detail Section -->
+    <section class="product-detail">
+        <div class="container">
+            <a href="products.html" class="back-link"><i class="fas fa-arrow-left"></i> Kembali ke Produk</a>
+            
+            <div class="product-detail-grid">
+                <div class="product-image-section">
+                    <div class="product-main-image" id="productMainImage">
+                        <!-- Main image will be loaded here -->
+                    </div>
+                </div>
+
+                <div class="product-info-section">
+                    <h1 class="product-title" id="productTitle">Loading...</h1>
+                    <div class="product-category" id="productCategory"></div>
+                    <!-- <div class="product-price" id="productPrice">Rp 0</div> -->
+                    
+                    <div class="product-description" id="productDescription">
+                        <h3>Deskripsi Produk</h3>
+                        <p>Loading...</p>
+                    </div>
+
+                    <div class="color-selection">
+                        <h3>Jenis warna</h3>
+                        <div class="color-options" id="colorOptions">
+                            <!-- Color options will be loaded here -->
+                        </div>
+                    </div>
+
+                    <div class="product-actions">
+                        <a href="#" id="orderShopee" class="btn btn-shopee btn-large" target="_blank">
+                     <i class="fas fa-shopping-cart"></i> Pesan di Shopee
+                    </a>
+
+                    <a href="#" id="orderTokopedia" class="btn btn-tokopedia btn-large" target="_blank">
+                        <i class="fas fa-shopping-cart"></i> Pesan di Tokopedia
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send?phone=62816722673" class="btn btn-secondary btn-large">
+                        <i class="fab fa-whatsapp"></i> Tanya via WhatsApp
+                    </a>
+
+                    </div>
+
+                    <div class="product-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Kualitas Premium</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-truck"></i>
+                            <span>Pengiriman Cepat</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <span>Mudah Return</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Products -->
+            <div class="related-products">
+                <h2>Produk Terkait</h2>
+                <div class="products-grid" id="relatedProductsGrid">
+                    <!-- Related products will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="foot-logo">
+                         <a href="index.html" class="logo">
+                             <img src="/aset/Logo Hiragana putih 2.png" alt=""><br>
+                        </a>
+                    </div>
+                    <p>Toko online fashion terpercaya dengan koleksi terlengkap dan harga terbaik.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="products.html">Produk</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Hubungi Kami</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +62816722673</li>
+                        <li><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dbb2b5bdb49bbdbaa8b3b2b4b5a8afb4a9bef5b8b4b6"> hinagiku.id@gmail.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i>  Jakarta, Indonesia</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/dailyhinagiku.id/" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@hinagiku.id" target="_blank" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=62816722673" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hinagiku All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./products-data.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
