@@ -543,7 +543,7 @@ img {
 .page-hero {
     position: relative;
 
-    background-image: url("/aset/bannerKatalog.jpg");
+    background-image: url("aset/bannerAbout.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
