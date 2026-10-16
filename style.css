@@ -949,7 +949,7 @@ img {
     }
 
     .page-hero {
-        background-image: url("/aset/bannerKatalogTablet.jpg");
+        background-image: url("aset/bannerKatalogTablet.jpg");
         background-position: center ;
 
         background-color: #36423f; /* warna banner tablet */
@@ -1110,7 +1110,7 @@ img {
 
 @media (max-width: 576px) {
     .page-hero {
-        background-image: url("/aset/bannerKatalogMobile.jpg");
+        background-image: url("aset/bannerKatalogMobile.jpg");
         background-position: center;
 
         background-color: #2e3633; /* warna banner mobile */
