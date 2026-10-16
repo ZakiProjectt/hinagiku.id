@@ -609,7 +609,7 @@ img {
     width: 100%;
     height: 400px;
 
-    background-image: url("/aset/bannerAbout.jpg");
+    background-image: url("aset/bannerAbout.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
